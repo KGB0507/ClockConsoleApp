@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////
-//Clock Console Application, v. 1.5.2
+//Clock Console Application, v. 1.6
 /////////////////////////////////////////////////////////////////////////////
 //Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved
 /////////////////////////////////////////////////////////////////////////////
@@ -12,9 +12,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 //Information about this Program Build. It is doubled in Clock Module.h
-#define VERSION "Version 1.5.2"
+#define VERSION "Version 1.6"
 #define AUTHOR "Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved"
-#define UNDERCONSTR ""
+#define UNDERCONSTR "Under construction"
 //#define DEBUG 1.5.2 //It is doubled in Command Stream.h
 
 #include <iostream>
