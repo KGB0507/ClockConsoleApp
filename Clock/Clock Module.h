@@ -1,9 +1,9 @@
 #pragma once
 
 //Information about this Program Build
-#define VERSION "Version 1.5.2"
+#define VERSION "Version 1.6"
 #define AUTHOR "Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved"
-#define UNDERCONSTR ""
+#define UNDERCONSTR "Under construction"
 
 #include <iostream>
 #include <cstdlib>

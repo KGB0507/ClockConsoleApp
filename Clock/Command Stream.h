@@ -9,7 +9,7 @@
 #include "Settings Class.h"
 #include "Log Manager.h"
 
-//#define DEBUG
+//#define DEBUG 1.6
 
 void CmdErrorMessage(Settings &settings);
 

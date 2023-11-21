@@ -1,21 +1,25 @@
 /////////////////////////////////////////////////////////////////////////////
-//Clock Console Application, v. 1.5.2
+//Clock Console Application, v. 1.6
 /////////////////////////////////////////////////////////////////////////////
 //Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved
 /////////////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////////////
 //Notes: 
-// add updating from web-site (with agreement) - may be in later versions
+// add updating from web-site (with agreement)- in updater.exe
+// add GUI - may be in later versions
+// improve help - add window scale adaptation
 /////////////////////////////////////////////////////////////////////////////
 
 
 #define _CRT_SECURE_NO_WARNINGS
 //Information about this Program Build. It is doubled in Clock Module.h
-#define VERSION "Version 1.5.2"
+#define VERSION "Version 1.6"
 #define AUTHOR "Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved"
-#define UNDERCONSTR ""
-//#define DEBUG 1.5.2 //It is doubled in Command Stream.h
+
+#define UNDERCONSTR "Under construction" //It is doubled in Clock Module.h
+//#define DEBUG 1.6 //It is doubled in Command Stream.h
+//#define DEBUGSKIPINTRO
 
 #include <iostream>
 #include <Windows.h>
@@ -38,7 +42,7 @@ int main()
 	LogManager logManager;
 	logManager.SetLogMode(settings.GetLogMode());
 	logManager.Start();
-#ifndef DEBUG
+#ifndef DEBUGSKIPINTRO
 	int t = 0;//startup time counter
 	cout << "Clock Console Application" << endl << VERSION << endl << AUTHOR << endl << endl << UNDERCONSTR << endl << endl;
 	switch (settings.GetLanguage())
