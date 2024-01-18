@@ -76,4 +76,9 @@
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="lang\lang.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
 </Project>

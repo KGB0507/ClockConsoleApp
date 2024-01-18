@@ -1,0 +1,32 @@
+{
+    "en": {
+        "StartingCommandManager": "Starting Command Manager. Please wait",
+        "StartMenu": "Start Menu",
+        "ProgramStartMenu": "This is the start menu of the program.",
+        "ControlDescription": "The control is carried out by entering text commands",
+        "CommandsList": "List of commands used in the program :",
+        "RunCommand": "*run [MODULE] - start module MODULE of the program (#run clock)",
+        "SetCommand": "*set [OPTION] [PARAMETER] - set the parameter PARAMETER of the option OPTION (#set console width 69)",
+        "ExitCommand": "*exit - stops program's work",
+        "RestartCommand": "*restart - restarts the program",
+        "RestartMessage": "The changes will take effect after restarting the program",
+        "NumericParameters": "Command parameters are entered only in numbers!",
+        "SuccessfulSettingsChange": "Settings were successfully changed!",
+        "ClockArt": "/Clock\\"
+    },
+    "ru": {
+        "StartingCommandManager": "Запуск программы. Пожалуйста, подождите",
+        "StartMenu": "Меню",
+        "ProgramStartMenu": "Это основное меню программы.",
+        "ControlDescription": "Управление осуществляется при помощи текстовых команд.",
+        "CommandsList": "Список команд, используемых в программе:",
+        "RunCommand": "*run [MODULE] - запуск модуля ...(Например, run clock)",
+        "SetCommand": "*set [OPTION] [PARAMETER] - установка параметра PARAMETER настройки OPTION (например, set console width 69)",
+        "ExitCommand": "*exit - прекращение работы программы",
+        "RestartCommand": "*restart - перезапуск программы",
+        "RestartMessage": "Все изменения вступят в силу после перезапуска программы.",
+        "NumericParameters": "Параметры команд вводятся только цифрами!",
+        "SuccessfulSettingsChange": "Настройки были успешно применены!",
+        "ClockArt": "/Часы\\="
+    }
+}

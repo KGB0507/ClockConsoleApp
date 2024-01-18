@@ -13,9 +13,17 @@
 #define _CRT_SECURE_NO_WARNINGS
 //Information about this Program Build. It is doubled in Clock Module.h
 #define VERSION "Version 1.6"
+<<<<<<< Updated upstream
 #define AUTHOR "Copyright (c) Kirill Belozerov, 2021-2023. All Rights Reserved"
 #define UNDERCONSTR "Under construction"
 //#define DEBUG 1.5.2 //It is doubled in Command Stream.h
+=======
+#define AUTHOR "Copyright (c) Kirill Belozerov, 2021-2024. All Rights Reserved"
+
+#define UNDERCONSTR "Under construction" //It is doubled in Clock Module.h
+#define DEBUG 1.6 //It is doubled in Command Stream.h
+//#define DEBUGSKIPINTRO
+>>>>>>> Stashed changes
 
 #include <iostream>
 #include <Windows.h>
